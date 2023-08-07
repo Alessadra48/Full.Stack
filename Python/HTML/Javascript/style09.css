@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #b982b5;
+}
+button {
+    margin-top: 10px;
+}
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+}

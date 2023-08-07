@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registro de Usuario</title>
+<!-- <style>
+    label {
+    display: block;
+    margin-top: 10px;
+    }
+    button {
+    margin-top: 10px;
+    }
+</style>-->
+</head>
+<body>
+<h1>Registrar un usuario</h1>
+<form>
+    <label for="nombre">Nombre de usuario</label><br>
+    <input type="text" id="nombre" required><br>
+    
+    <label for="contrasena">Contraseña del usuario</label><br>
+    <input type="password" id="contrasena" required><br>
+    
+    <label for="edad">Edad del usuario</label><br>
+    <input type="number" id="edad" required><br>
+    
+    <label for="fecha_nacimiento">Fecha de nacimiento del usuario</label><br>
+    <input type="date" id="fecha_nacimiento" required><br>
+    
+    <label for="sexodelusuario">Sexo del usuario</label><br>
+    <input type="radio" id="Hombre" name="sexodelusuario" value="Hombre"><label for="Hombre">Hombre</label><br>
+    <input type="radio" id="Mujer" name="sexodelusuario" value="Mujer"><label for="Mujer">Mujer</label><br>
+    <input type="radio" id="Prefieronodecir" name="sexodelusuario" value="Prefieronodecir"><label for="Prefieronodecir">Prefiero no decir</label><br>
+    
+    <label for="pais_nacimiento">País de nacimiento del usuario</label><br>
+    <select id="pais_nacimiento">
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Chile">Chile</option>
+    <option value="Colombia">Colombia</option>
+    <option value="México">México</option>
+    <option value="Perú">Perú</option>
+    <option value="España">España</option>
+    <option value="Estados Unidos">Estados Unidos</option>
+    <!-- Agrega más países según tus necesidades -->
+    </select>
+    <p>
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+    </p>
+</form>
+</body>
+</html>

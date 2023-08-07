@@ -1,0 +1,28 @@
+.container {
+    margin: 20px;
+    }
+    
+    h1 {
+    text-align: center;
+    }
+    
+    div {
+    margin-bottom: 10px;
+    }
+    
+    label {
+    display: inline-block;
+    width: 60px;
+    }
+    
+    input[type="number"] {
+    width: 120px;
+    }
+    
+    button {
+    margin-left: 10px;
+    }
+    
+    span {
+    font-weight: bold;
+    }

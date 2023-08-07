@@ -1,0 +1,19 @@
+body {
+    background-color: #ffffff;
+    }
+    
+    .soleado {
+    background-image: url(img2.jpg);
+    }
+    
+    .nublado {
+    background-image: url(img3.jpg);
+    }
+    
+    .lloviendo {
+    background-image: url(img.jpg);
+    }
+    
+    h1, label, select, h2 {
+    margin: 10px;
+    }
